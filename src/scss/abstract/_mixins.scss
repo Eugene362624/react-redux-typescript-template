@@ -1,0 +1,35 @@
+@mixin forS {
+    @media (max-width: 599px) {
+        @content;
+    }
+}
+
+@mixin forSplus {
+    @media (max-width: 599px) {
+        @content;
+    }
+}
+
+@mixin forM {
+    @media (min-width: 600px) and (max-width: 1199px) {
+        @content;
+    }
+}
+
+@mixin forMplus {
+    @media (min-width: 600px) {
+        @content;
+    }
+}
+
+@mixin forL {
+    @media (min-width: 1200px) and (max-width: 1799px) {
+        @content;
+    }
+}
+
+@mixin forXl {
+    @media (min-width: 1800px) {
+        @content;
+    }
+}
